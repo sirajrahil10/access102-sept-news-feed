@@ -6,9 +6,7 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import styles from "./styles.module.css";
-
-
-
+import '../authentication/login.css'
 function Home() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);

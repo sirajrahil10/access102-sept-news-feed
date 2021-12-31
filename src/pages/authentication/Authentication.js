@@ -2,7 +2,7 @@ function Authentication() {
   return (
     <div>
       <div className="form">
-        <h1 style={{color:'blue'}} > Sign in</h1>
+        <h1 > Sign in</h1>
         <input type="text" placeholder="Enter Your Email"></input>
         <br/>
         <input type="text" placeholder="Enter Your Password"></input>
